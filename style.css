@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 300px;
+    margin: 100px auto;
+}
+.cal-parent{
+    border-radius: 5px;
+    background: #222222;
+    padding: 20px;
+}
+.input{
+    padding: 15px 10px;
+    text-align: end;
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+   color: #11DC12;
+    font-size: 17px;
+}
+.input::placeholder {
+    color: #11DC12;
+}
+.cal-child1{
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.cal-red{
+    width: 75%;
+}
+
+.bg-red{
+    width: 100%;
+    background: #DC3546;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+     padding: 15px 21px ;
+    margin-bottom: 10px;
+}
+.bg-grey{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 21px ;
+    background: #333333;
+    color: white;
+    border: none;
+}
+#grey{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+.cal-orng{
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.bg-orng{
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 16px 25px ;
+    background: #FF9501;
+    color: white;
+    border: none;
+    
+}
+#add{
+    font-size: 14px;
+     padding: 16px 24px ;
+}
+
+.cal-child2{
+    display: flex;
+    gap: 19px;
+    margin-top: 17px;
+}
+.bg-grey2{
+    display: flex;
+    gap: 19px;
+}
+.bg-blue{
+    width: 47%;
+    border: none;
+    border-radius: 5px;
+    background-color:#1E90FF ;
+    color: white;
+}
+button{
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #444242;
+
+}
+button:active{
+    transform: scale(0.9);
+}
